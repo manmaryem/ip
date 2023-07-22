@@ -3,8 +3,8 @@
 - L'adresse MAC destination **00 12 17 41 c2 c7**
 - L'EtherType **08 00**
  #### Le contenu de l'en-tête IP, soit: #### 
-- La version du protocole **06**
-- L'IHL **24**
+- La version du protocole **04**
+- L'IHL **4**
 - Le service **00**
 - La longueur totale du datagramme IP (en décimal, pas en hexadécimal) **40 (hex)** = **64 (décimal)**
 - L'identifiant affecté au datagramme **da c2**
