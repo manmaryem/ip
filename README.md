@@ -9,13 +9,13 @@
 - La longueur totale du datagramme IP (en décimal, pas en hexadécimal) **40 (hex)** = **64 (décimal)**
 - L'identifiant affecté au datagramme **da c2**
 - Les flags **00**
-- Les offsets **3c**
-- La valeur du champ TTL **fc**
+- Les offsets **00**
+- La valeur du champ TTL **64**
 - Le contenu du champ protocole. En déduire le protocole encapsulé dans le
 - paquet IP. **6**
-- Le checksum **06 fc**
-- L'adresse IP source (en format décimal) **da c2 40 00** (hex) **218.194.64.0**
-- L'adresse IP de destination (en format décimal) d5 e4 00 2a (hex) **213.228.0.42 (déci)**
+- Le checksum **fc 9d**
+- L'adresse IP source (en format décimal) **d5 e4 00 2a** (hex) **213.228.0.42**
+- L'adresse IP de destination (en format décimal) 3E 93.51.3B (hex) **62.147.81.59 (déci)**
 
 
 
